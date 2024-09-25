@@ -49,7 +49,7 @@ Lexer::Lexer(const std::string &input) {
 
 Token Lexer::getNextToken() {
     while (currentChar != '\0') {
-        std::cout << currentChar << std::endl;
+        //std::cout << currentChar << std::endl;
 
         if (std::isspace(currentChar)) {
             skipWhiteSpace();
