@@ -56,5 +56,7 @@ int main() {
         }
     }
 
+    file_out.close();
+
     return 0;
 }
